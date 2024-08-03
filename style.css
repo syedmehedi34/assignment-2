@@ -29,6 +29,21 @@ body {
     display: flex;
 }
 
+.btn-primary {
+  padding: 15px 35px;
+  border-radius: 2.5rem;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+}
+
+.primary-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
 
 
 
@@ -41,14 +56,13 @@ body {
 header {
     max-width: 100%;
     height: 40rem;
-    border: 2px solid #111111;
+    /* border: 2px solid #e3d9d9; */
   }
 
   
   /* Nav-bar CSS [ Header ] */
-
   .nav-bar {
-    width: 80%;
+    max-width: 80%;
     margin: 35px auto;
     justify-content: space-between;
     align-items: center;
@@ -65,10 +79,11 @@ header {
     margin-right: 2rem;
     color: rgb(255, 255, 255);
     font-size: 1rem;
+    cursor: pointer;
   }
   .nav-title {
     color: rgb(230, 83, 60);
-    font-size: 2.25rem;
+    font-size: 2.35rem;
     font-style: italic;
     font-weight: 800;
   }
@@ -78,15 +93,206 @@ header {
     background: rgb(230, 83, 60);
   }
   .nav-icon {
-    color: white;
-    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    cursor: pointer;
     display: none;
+  }
+  /* .nav-icon {
+    display: block;
+  }
+  */
+  /* ▬▬▬▬▬▬▬▬▬▬ All Done Nav-bar section ▬▬▬▬▬▬▬▬▬▬▬▬▬ */
+
+
+
+  /* Banner CSS [Header] */
+.banner {
+    max-width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .banner-container {
+    width: 33rem;
+    height: 24rem;
+  }
+  .banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+.banner-description {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+.banner-download-btn {
+  padding: 15px 35px;
+  border-radius: 2.5rem;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 0.75rem;
+}
+
+
+  /* banner-image */
+  .banner-photo-container {
+    position: relative;
+  }
+
+  .banner-photo {
+    max-width: 20.5rem;
+    margin-top: 1.8rem;
+  }
+
+     /* Banner Pop-up */
+  .banner-popups {
+    width: 10.5rem;
+    height: 5.5rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tutorial-popup {
+    position: absolute;
+    top: 400px;
+    right: 250px;
+  }
+
+  .workout-popup {
+    position: absolute;
+    top: 130px;
+    left: 205px;
+  }
+
+.popup-circle {
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+  }
+
+  .popup-heading {
+    color: rgb(250, 250, 249);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: .95rem;
+  }
+ 
+.popup-description {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: .75rem;
+    font-weight: 400;
+    margin-top: -.75rem;
+  }
+
+  .content-tutorial {
+    margin-left: 0.6rem;
+  }
+
+  .workout-popup {
+    flex-direction: column;
+    align-items:start;
+    padding-left: 20px;
+  }
+
+  .heading-350 {
+    font-size: 1.35rem;
   }
 
 
+  /* ▬▬▬▬▬▬▬▬ For Small Device [Head section] ▬▬▬▬▬▬▬▬▬▬▬ */
+
+
+@media screen and (max-width: 576px) {
+
+  .nav-list {
+    display: none;
+  }
+  .nav-icon {
+    display: block;
+  }
+  .banner {
+    flex-direction: column;
+    /* border: 2px solid rgb(99, 139, 114); */
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  .banner-container {
+    max-width: 100%;
+    margin: 0 auto;
+    /* border: 2px solid white; */
+  }
+  .btn-primary {
+    padding: 15px 20px;
+    font-size: 1rem;
+  }
+  .banner-download-btn {
+    padding: 15px 20px;
+    font-size: 1rem; 
+  }
+
+  /* Banner Pop-up */
+  .banner-popups {
+    width: 10rem;
+    height: 5.3rem;
+  }
+
+  .tutorial-popup {
+    position: absolute;
+    top: 300px;
+    right: 200px;
+  }
+  .workout-popup {
+    position: absolute;
+    top: 65px;
+    left: 180px;
+  }
+
+  .popup-heading {
+    font-size: 1.9rem;
+  }
+.popup-description {
+    font-size: .7rem;
+  }
+  .heading-350 {
+    font-size: 1.35rem;
+  }
+}
+   /* ▬▬▬▬▬▬▬▬▬▬▬ All Done For Head section ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
