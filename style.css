@@ -33,6 +33,7 @@
   font-size: 1rem;
   font-weight: 600;
   border: none;
+  cursor: pointer;
 }
 
 .primary-description {
@@ -139,6 +140,7 @@ header {
   background-color: transparent;
   border: 1px solid rgb(255, 255, 255);
   margin-left: 0.75rem;
+  cursor: pointer;
 }
 
 
@@ -274,7 +276,7 @@ header {
 }
    /* ▬▬▬▬▬▬▬▬▬▬▬ Head section ends  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
-   
+
 
    /* ▬▬▬▬▬▬▬▬▬▬▬ Habit section starts  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
@@ -351,7 +353,6 @@ header {
 
 @media screen and (max-width: 576px) {
 
-
   main {
     /* border: 1px solid green; */
     max-width: 100%;
@@ -379,13 +380,109 @@ header {
 }
 
 }
-
    /* ▬▬▬▬▬▬▬▬▬▬▬ Habit section ends   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
 
 
 
 
+   /* ▬▬▬▬▬▬▬▬▬▬▬ Run section Starts   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
+
+/* Run Section */
+.run-extra-mile-section {
+  max-width: 85%;
+  height: auto;
+  margin: 0 auto;
+  background: rgb(34, 34, 34);
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1.1rem;
+}
+
+.run-details-container {
+  max-width: 25rem;
+  margin-left: 2.5rem;
+
+}
+
+.run-section-title {
+  text-align: left;  
+}
+
+.run-section-description {
+  padding-top: .75rem;
+  padding-bottom: 20px;
+  max-width: 360px;
+}
+
+.run-section-button {
+  width: 200px;
+}
+
+.run-section-image {
+  width: 17rem;
+  height: 14.5rem;
+  margin: 1rem;
+  margin-right: 2.5rem;
+  border-radius: 1.1rem;
+}
+
+
+
+
+/* For small device  */
+@media screen and (max-width: 576px) {
+
+.run-extra-mile-section {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+}
+
+.run-section-title {
+  font-size: 1.8rem;
+  padding-top: 2rem;
+}
+
+.run-section-description {
+  margin-right: 2rem;
+  text-align: justify;
+  
+}
+
+.run-section-button-container {
+  display: flex;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
+}
+.run-section-button {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.run-section-image {
+  width: 77%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 18px;
+
+}
+.run-section-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+}
+} 
+   /* ▬▬▬▬▬▬▬▬▬▬▬ Run section Ends   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
+
+
+
+
+
+
+   /* ▬▬▬▬▬▬▬▬▬▬▬   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
 
 
@@ -393,11 +490,5 @@ header {
 
 
 
-
-
-
-
-
- 
 
 
