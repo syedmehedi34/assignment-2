@@ -41,7 +41,6 @@
   font-weight: 400;
 }
 
-
 .primary-title {
   font-size: 2.4rem;
   font-weight: 900;
@@ -54,11 +53,12 @@
 /* Header Section CSS 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 header {
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 600%);
-    border: 0.1px solid rgb(61, 53, 54);
+  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 600%); */
+  background: linear-gradient(0.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 700%);
+
+    border: 0.1px solid rgb(0, 0, 0);
     height: auto;
     max-width: 100%;
-
   }
 
   /* Nav-bar CSS [ Header ] */
@@ -274,10 +274,7 @@ header {
 }
    /* ▬▬▬▬▬▬▬▬▬▬▬ Head section ends  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
-
-
-
-
+   
 
    /* ▬▬▬▬▬▬▬▬▬▬▬ Habit section starts  ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
@@ -352,8 +349,36 @@ header {
 
 /* Habit section for small device  */
 
+@media screen and (max-width: 576px) {
 
 
+  main {
+    /* border: 1px solid green; */
+    max-width: 100%;
+    
+  }
+.habit-title {
+  margin-top: 10px;  
+}
+.habit-all-cards {
+  /* border: 1px solid green; */
+  flex-direction: column;
+  margin: auto;
+  gap: 1.8rem;
+  padding-top: 2.3rem;
+}
+
+#habit-title-header{
+  font-size: 1.9rem;
+}
+.habit-title-description {
+  /* border: 1px solid green; */
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+}
 
    /* ▬▬▬▬▬▬▬▬▬▬▬ Habit section ends   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ */
 
