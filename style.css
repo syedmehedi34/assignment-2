@@ -695,29 +695,29 @@ input::placeholder {
 }
 
 .image-1-1 {
-  background-image: url(./images/trainer1.png);
+  background-image: url(../images/trainer1.png);
   /* background: rgba(0, 0, 0, 0.2),url(./images/trainer1.png); */
   margin: 12px 6px 6px 12px;
 }
 .image-1-2 {
-  background-image: url(./images/trainer2.png);
+  background-image: url(../images/trainer2.png);
   margin: 12px 6px 6px 6px;
 }
 .image-1-3 {
-  background-image: url(./images/trainer3.png);
+  background-image: url(../images/trainer3.png);
   margin: 12px 12px 6px 6px;
 }
 .image-2-1 {
-  background-image: url(./images/trainer4.png);
+  background-image: url(../images/trainer4.png);
   margin: 6px 6px 12px 12px;
   
 }
 .image-2-2 {
-  background-image: url(./images/trainer5.png);
+  background-image: url(../images/trainer5.png);
   margin: 6px 6px 12px 6px;
 }
 .image-2-3 {
-  background-image: url(./images/trainer6.png);
+  background-image: url(../images/trainer6.png);
   margin: 6px 12px 12px 6px;
 }
 
@@ -805,7 +805,7 @@ input::placeholder {
 
 
 
-   /* ▬▬▬▬▬▬▬▬ Meet our team section  ▬▬▬▬▬▬▬▬▬▬▬▬ */
+   /* ▬▬▬▬▬▬▬▬ footer section  ▬▬▬▬▬▬▬▬▬▬▬▬ */
 
 
 
