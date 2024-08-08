@@ -669,7 +669,7 @@ input::placeholder {
   max-width: 50%;
   min-height: 6.5rem;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 .team-section-head-description {
   text-align: center;
@@ -802,10 +802,107 @@ input::placeholder {
 }
 
 
-
-
-
    /* ▬▬▬▬▬▬▬▬ footer section  ▬▬▬▬▬▬▬▬▬▬▬▬ */
+
+footer {
+  max-width: 100%;
+  background-color: #1A1A1A;
+  border: 1px solid #1A1A1A; 
+  /* border: 1px solid greenyellow; */
+} 
+.footer-container {
+  /* border: 1px solid green; */
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 5.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.sub-container-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 8px 0;
+}
+
+.sub-container-left {
+  /* border: 1px solid beige; */
+  width: 40%;
+}
+.sub-container-left-heading {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.sub-container-left-description {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.sub-container-heading {
+  color: rgb(255, 255, 255);
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+/* copyright section  */
+.horizontal-line {
+  width: 75%;
+  margin: 0 auto;
+  height: 1px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.copyright-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .9rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+
+/* For Small Device */
+@media screen and (max-width: 576px) {
+
+  footer {
+    border: 1px wheat ;
+    width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    margin: 0;
+    padding-left: 2.5rem;
+  }
+
+  .sub-container-left {
+    width: 80%;
+    height: fit-content;
+  }
+
+  .sub-container-left-heading {
+    margin-top: 2.5rem;
+  }
+
+  .sub-container-middle {
+    width: 60%;
+  }
+  .sub-container-middle h4, 
+  .sub-container-right h4 {
+    padding-bottom: 1.2rem;
+    padding-top: 2.5rem;
+  }
+
+  .sub-container-description {
+    margin: 10px 0;
+
+  }
+
+
+
+
+}
+
 
 
 
