@@ -35,6 +35,10 @@
   border: none;
   cursor: pointer;
 }
+.btn-primary:active {
+  transform: scale(0.95); 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
 
 .primary-description {
   color: rgba(255, 255, 255, 0.5);
@@ -899,14 +903,238 @@ footer {
   }
 
 
-
-
 }
 
 
 
 
 
+
+   /* ▬▬▬▬▬▬▬▬ extra  section  ▬▬▬▬▬▬▬▬▬▬▬▬ */
+
+   footer,
+   .meet-our-team-section,
+   #bmi-calculator-page, 
+   #run-page,
+   .habit {
+    display: none;
+  }
+   
+  .pricing-card-section {
+    /* border: 1px solid gold ; */
+    max-width: 100%;
+    height: fit-content ;
+    background-color: #1A1A1A;
+  }
+
+  .pricing-card-head {
+    /* border: 1px solid green; */
+    width: fit-content;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+
+.card-details {
+  /* border: 1px solid gold ; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .price-card-container {
+    /* border: 1px solid gold; */
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding: 0 10%;
+
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between ;
+    /* border: 1px solid green; */
+    /* background-color: #1A1A1A; */
+    background-color: #7f7f7f48;
+    border-radius: 20px;
+    width: calc(100% - 26%)  ;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: transform 0.3s ease; 
+    margin-bottom: 4rem;
+  }
+
+  .cards-listing {
+    padding-left: 20px ;
+}
+
+.card-title {
+  /* border: 1px solid greenyellow; */
+  font-size: 1.5rem;
+  width: fit-content;
+  color: white;
+  font-weight: 900;
+  padding: 1.7rem 0;
+  
+}
+
+.card-price {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  padding-top: 1.25rem ;
+  padding-bottom: .5rem;
+}
+
+.card-price-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .85rem;
+  font-weight: 400;
+  padding-bottom: 2.5rem;
+}
+
+.cards-listing {
+  /* border: 1px solid green; */
+  width: 88%;
+}
+
+.cards-listing li {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .85rem;
+  font-weight: 400;
+  padding: 8px;
+}
+
+.card-button {
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  transform: scale(1.1); 
+}
+
+
+
+
+
+/* For Small Device */
+@media screen and (max-width: 576px) {
+    
+  .price-card-container {
+    flex-direction: column;
+  }
+
+  .price-card-container {
+    /* border: 1px solid gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .card {
+    width: 90%;
+    /* height: 550px; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .pricing-card-section {
+    /* border: 1px solid gold ; */
+    max-width: 100%;
+    height: fit-content ;
+    background-color: #1A1A1A;
+  }
+
+  .pricing-card-head {
+    /* border: 1px solid green; */
+    width: fit-content;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+
+.card-details {
+  /* border: 1px solid gold ; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+
+  
+ 
+
+  .cards-listing {
+    padding-left: 20px ;
+}
+
+.card-title {
+  /* border: 1px solid greenyellow; */
+  font-size: 1.5rem;
+  width: fit-content;
+  color: white;
+  font-weight: 900;
+  padding: 1.7rem 0;
+  
+}
+
+.card-price {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  padding-top: 1.25rem ;
+  padding-bottom: .5rem;
+}
+
+.card-price-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .85rem;
+  font-weight: 400;
+  padding-bottom: 2.5rem;
+}
+
+.cards-listing {
+  /* border: 1px solid green; */
+  width: 88%;
+}
+
+.cards-listing li {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .85rem;
+  font-weight: 400;
+  padding: 8px;
+}
+
+.card-button {
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  transform: scale(1.1); 
+}
+
+
+
+}
 
 
 
