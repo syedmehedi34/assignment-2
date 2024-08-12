@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
-.great-vibes-regular-font {
-    font-family: "Great Vibes", cursive;
-  }
+
+.shape-font {
+  font-family: 'Miama', sans-serif;
+  font-size: 5rem;
+  padding: 0 5px 0 0;
+}
   .inter-font {
     font-family: "Inter", sans-serif;
   }  
@@ -861,7 +865,6 @@ footer {
   border: none;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 
 
 .copyright-text {
